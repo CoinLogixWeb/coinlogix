@@ -3,60 +3,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CoinLogix - Coming Soon</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoinLogix - Coin Collecting Made Easy</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f8f9fa;
-            color: #333;
             text-align: center;
-            padding: 50px;
+            color: #333;
         }
         h1 {
             color: #003366;
+            margin-top: 30px;
         }
-        .container {
-            max-width: 800px;
-            margin: auto;
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin: 40px;
         }
-        ul {
-            text-align: left;
-            display: inline-block;
+        .screenshot {
+            width: 400px;
+        }
+        .screenshot img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        .caption {
             margin-top: 10px;
-        }
-        .highlight {
             font-weight: bold;
-            color: #006400;
-            margin: 30px 0;
-        }
-        .footer {
-            margin-top: 40px;
-            font-size: 0.9em;
-            color: #666;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>CoinLogix</h1>
-        <h2>Coin collecting made easy and affordable</h2>
-        <p>A powerful, offline coin cataloging system with twice the features at half the price.</p>
-        <p>Easy to learn. Hard to beat.</p>
-        <ul>
-            <li>Easy to learn</li>
-            <li>Intuitive interface</li>
-            <li>Add photos of your own coins</li>
-            <li>Coin details auto-fill (where available)</li>
-            <li>Includes “About” sections for historical context</li>
-            <li>Learning Center + in-app Help</li>
-            <li>Automatic coin count & value tracking</li>
-            <li>Printable labels for 2x2 flips</li>
-            <li>Inventory reports & PDF export</li>
-            <li><strong>Fully offline – no accounts, no data collection</strong></li>
-        </ul>
-        <div class="highlight">COMING SOON</div>
-        <p class="footer">Questions? Contact us at <a href="mailto:CoinLogix@gmx.com">CoinLogix@gmx.com</a></p>
+    <h1>CoinLogix – Coin Collecting Made Easy and Affordable</h1>
+    <div class="gallery">
+        
+        <div class="screenshot">
+            <img src="img/Screen-MainInfo.jpg" alt="Main Info: Core details at a glance">
+            <div class="caption">Main Info: Core details at a glance</div>
+        </div>
+    
+        <div class="screenshot">
+            <img src="img/Screen2-Details.jpg" alt="About & Notes: Learn the story behind every coin">
+            <div class="caption">About & Notes: Learn the story behind every coin</div>
+        </div>
+    
+        <div class="screenshot">
+            <img src="img/Screen3-Photos.jpg" alt="Photos: Store obverse, reverse & reference images">
+            <div class="caption">Photos: Store obverse, reverse & reference images</div>
+        </div>
+    
+        <div class="screenshot">
+            <img src="img/Screen4-Utilities.jpg" alt="Utilities: Power tools for collectors">
+            <div class="caption">Utilities: Power tools for collectors</div>
+        </div>
+    
     </div>
 </body>
 </html>
