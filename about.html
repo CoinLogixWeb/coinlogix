@@ -13,9 +13,6 @@
       color: #333;
       text-align: center;
     }
-    nav {
-      margin-bottom: 20px;
-    }
     nav a {
       margin: 0 10px;
       text-decoration: none;
@@ -28,9 +25,49 @@
     hr {
       margin: 30px 0;
     }
+    header img {
+      max-width: 300px;
+      height: auto;
+      margin-top: 20px;
+    }
+    .subtitle {
+      font-family: 'Gill Sans MT', sans-serif;
+      font-size: 18px;
+      margin-top: 0;
+      color: #555;
+    }
+    .intro, .screenshot {
+      max-width: 800px;
+      margin: 30px auto;
+      text-align: left;
+    }
+    .screenshot img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #0077cc;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+    small {
+      font-size: 0.8em;
+      color: #777;
+    }
   </style>
 </head>
 <body>
+<header>
+  <img src="images/coinlogix_logo.png" alt="CoinLogix Logo">
+</header>
 
 
 <nav>
@@ -43,8 +80,16 @@
 </nav>
 <hr>
 
+
 <h1>About CoinLogix</h1>
-<p>We're real collectors, just like you — not a bunch of guys in cubicles.</p>
-<p>CoinLogix was built to make coin collecting easier, safer, and a whole lot less complicated.</p>
+
+<div class="intro">
+  <p>CoinLogix was built with one goal in mind: to make coin collecting easier, not harder.</p>
+  <p>Like a lot of collectors, I got tired of complicated, bloated, overpriced software that seemed designed more for IT departments than actual hobbyists.</p>
+  <p>I didn’t need a NASA dashboard — I needed a simple, reliable way to track my collection, add photos, print labels, and have everything in one place — without needing a computer science degree (or a second mortgage).</p>
+  <p>And… I wanted it to work OFFLINE. Why on earth would I take a chance on letting the rest of the world know what’s in my collection? No way, Jose… not with things the way they are these days.</p>
+  <p>CoinLogix doesn’t require you to sign away your privacy, upload your collection to the cloud, or sit through a two-hour training course just to figure out where the "Add New Coin" button is.</p>
+</div>
+
 </body>
 </html>
