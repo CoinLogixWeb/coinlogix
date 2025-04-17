@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>CoinLogix - Trial Version</title>
   <style>
     body {
@@ -16,21 +16,27 @@
       font-weight: bold;
       font-style: italic;
       font-size: 48px;
-      color: #0077cc;
       margin-bottom: 5px;
+      color: #0077cc;
     }
-    h2 {
+    .subtitle {
       font-family: 'Gill Sans MT', sans-serif;
       font-size: 18px;
       margin-top: 0;
       color: #555;
     }
+    .intro {
+      max-width: 800px;
+      margin: 20px auto;
+      font-size: 16px;
+      line-height: 1.6;
+    }
     .screenshot {
-      margin-bottom: 40px;
+      max-width: 800px;
+      margin: 40px auto;
     }
     .screenshot img {
       width: 100%;
-      max-width: 800px;
       height: auto;
       border: 1px solid #ccc;
       box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
@@ -39,7 +45,9 @@
       margin-top: 10px;
     }
     .btn {
-      display: inline-block;
+      display: block;
+      width: max-content;
+      margin: 40px auto;
       padding: 12px 24px;
       background-color: #0077cc;
       color: #fff;
@@ -52,31 +60,42 @@
 </head>
 <body>
   <h1>CoinLogix</h1>
-  <h2>Your coin management solution</h2>
-  <p>Check out CoinLogix! A new compact, yet powerful coin management tool. Scroll through the screenshots to get an idea of what CoinLogix does, and if you want to give it a spin, the trial version allows you to catalog up to 10 coins and explore the app's core features before purchasing the full version.</p>
+  <p class="subtitle">Your coin management solution</p>
+
+  <div class="intro">
+    <p>
+      Check out <strong>CoinLogix!</strong> A new compact, yet powerful coin management tool.
+      Scroll through the screenshots to get an idea of what CoinLogix does, and if you want to give it a spin,
+      the trial version allows you to catalog up to 10 coins and explore the app’s core features before purchasing the full version.
+    </p>
+  </div>
 
   <div class="screenshot">
-    <img src="CoinLogix_Trial_Screen1.png" alt="Main Info Screen">
+    <img src="images/CoinLogix_Trial_Screen1.png" alt="Main Info Screen">
     <p><strong>Main Info Screen</strong><br>
-    Quickly enter key details like coin type, year, mint mark, grade, and more. Auto-fill takes care of the rest!</p>
+      Quickly enter key details like coin type, year, mint mark, grade, and more. Auto-fill takes care of the rest!
+    </p>
   </div>
 
   <div class="screenshot">
-    <img src="CoinLogix_Trial_Screen2.png" alt="Details & Notes">
+    <img src="images/CoinLogix_Trial_Screen2.png" alt="Details & Notes">
     <p><strong>Details & User Notes</strong><br>
-    Every coin has a story — learn about its history and add your own notes in a clean, user-friendly interface.</p>
+      Every coin has a story — learn about its history and add your own notes in a clean, user-friendly interface.
+    </p>
   </div>
 
   <div class="screenshot">
-    <img src="CoinLogix_Trial_Screen3.png" alt="Photos Tab">
+    <img src="images/CoinLogix_Trial_Screen3.png" alt="Photos Tab">
     <p><strong>Photos Tab</strong><br>
-    Add obverse and reverse images to each record. Even zoom in and compare to a reference photo.</p>
+      Add obverse and reverse images to each record. Even zoom in and compare to a reference photo.
+    </p>
   </div>
 
   <div class="screenshot">
-    <img src="CoinLogix_Trial_Screen4.png" alt="Utilities Tab">
+    <img src="images/CoinLogix_Trial_Screen4.png" alt="Utilities Tab">
     <p><strong>Utilities & Learning Center</strong><br>
-    Built-in calculators, help tools, and snapshot reports — with upcoming features for future versions.</p>
+      Built-in calculators, help tools, and snapshot reports — with upcoming features for future versions.
+    </p>
   </div>
 
   <a href="https://www.mediafire.com/file/ikgsu1a3ieqy0jz/CoinLogix_Trial_Installer.exe/file" class="btn" target="_blank">
